@@ -5,10 +5,6 @@ import './App.css';
 // importar botón
 import PaypalCheckoutButton from './components/PaypalCheckoutButton';
 
-/*
-* By AFelipe MX  @afelipelc
-*/
-
 function App() {
 
   const order = {
@@ -20,14 +16,14 @@ function App() {
         name: 'Camisa ReactJS',
         price: '300.00',
         quantity: 1,
-        currency: 'MXN'
+        currency: 'USD'
       },
       {
         sku: '99',
         name: 'Camisa JS',
         price: '125.00',
         quantity: 2,
-        currency: 'MXN'
+        currency: 'USD'
       },
     ],
   };
